@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import '../style/Main.css';
+import './Main.css';
 import TextField from 'material-ui/TextField';
 import FlatButton from 'material-ui/FlatButton';
 import { Link } from 'react-router-dom';
 
-class SigninView extends Component {
+class SigninComponent extends Component {
   render() {
     return(
       <main className="main__form">  
@@ -30,4 +30,4 @@ class SigninView extends Component {
   }
 }
 
-export default SigninView;
+export default SigninComponent;

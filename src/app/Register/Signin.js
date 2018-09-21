@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SigninView from '../view/SigninView';
+import SigninComponent from './SigninComponent';
 
 class Signin extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class Signin extends Component {
 
   render(){
     return (
-      <SigninView onUpdateInput={this.onUpdateInput}/>
+      <SigninComponent onUpdateInput={this.onUpdateInput}/>
     )
   }
 }

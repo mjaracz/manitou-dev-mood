@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../style/Main.css';
+import './Main.css';
 import TextField from 'material-ui/TextField';
 import FlatButton from 'material-ui/FlatButton';
 
-class RegisterView extends Component {
+class RegisterComponent extends Component {
   render() {
     return(
       <main className="main__form">  
@@ -47,4 +47,4 @@ class RegisterView extends Component {
   }
 }
 
-export default RegisterView;
+export default RegisterComponent;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../style/SideCard.css';
+import './SideCard.css';
 import { Link } from 'react-router-dom';
 
-class SideCardView extends Component {
+class SideCardComponent extends Component {
   render() {
     return(
       <div className={!this.props.sideCard ? "sidebar" : "sidebar sidebar--expanded"}>
@@ -30,4 +30,4 @@ class SideCardView extends Component {
   }
 }
 
-export default SideCardView;
+export default SideCardComponent;

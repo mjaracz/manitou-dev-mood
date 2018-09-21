@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
-import '../style/Main.css';
-import Image from '../assets/img3mini.JPG';
+import './Main.css';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ContentAdd from 'material-ui/svg-icons/content/add';
 
 
-class ApaczeView extends Component {
+class ApaczeComponent extends Component {
   render() {
     return (
       <main>
         <div className="main--grid">
           <h1>Apacze</h1>
-
-          <figure>
-            <img src={Image} alt="autor zdjęcia: Kuba Jaracz" className="main__img1" />
-            <figcaption className="main__textAuthor">autor zdjęcia: Kuba Jaracz</figcaption>
-          </figure>
 
           <div className="main__text main__text1">  
             lorem ipsum dkfk dfjnwidcn njsjakakwc
@@ -45,11 +39,11 @@ class ApaczeView extends Component {
           disabledColor="#ff6600b2" style={{backgroundColor: "#ff6600b2", marginTop: 25,}} 
           iconStyle={{backgroundColor: "#ff6600b2"}} onClick={this.props.addText}
         >
-          <ContentAdd />
+        <ContentAdd />
         </FloatingActionButton>
       </main>
     )
   }
 }
 
-export default ApaczeView;
+export default ApaczeComponent;

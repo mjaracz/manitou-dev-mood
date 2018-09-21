@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ApaczeView from '../view/ApaczeView';
-import { addText } from '../redux/actions/userActions';
+import ApaczeComponent from './ApaczeComponent';
+import { addText } from '../../duck/actions/userActions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-class Apacze extends Component {
+class ApaczeContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -20,14 +20,9 @@ class Apacze extends Component {
     this.setState({
       [e.target.getAttribute('name')]: [e.target.innerHTML]
     })
-
-
   }
 
   addText() {
-
-
-
     let arrText = [
       {
         type: 'Apacze',
@@ -60,14 +55,13 @@ class Apacze extends Component {
 
   render() {
     return(
-      <ApaczeView text={this.state.text} changeTekst={this.changeTekst} addText={this.addText} />
+      <ApaczeComponent text={this.state.text} changeTekst={this.changeTekst} addText={this.addText} />
     )
   }
 }
 
-Apacze.propTypes = {
+ApaczeContainer.propTypes = {
   addText: PropTypes.func.isRequired,
-
   texts: PropTypes.array.isRequired
 }
 
@@ -75,4 +69,4 @@ const mapStateToProps = (state) => ({
   texts: state.users.texts
 })
 
-export default connect(mapStateToProps, { addText } ) (Apacze);
+export default connect(mapStateToProps, { addText } ) (ApaczeContainer);

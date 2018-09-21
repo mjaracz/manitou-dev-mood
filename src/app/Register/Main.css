@@ -1,0 +1,162 @@
+main {
+  width: 80vw; 
+  background-color: #2f2f2f;
+  color:  rgb(218, 218, 218);
+  margin: 100px auto;
+  padding: 30px;
+}
+
+main > div.main--grid {
+  display: grid; 
+  grid-template-areas:
+    'header header' 
+    'menu right'
+    'main main'
+    'footer footer';
+  grid-gap: 10px;
+}
+
+
+div.main--grid h1 {
+  grid-area: header;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2.5px;
+  margin-left: 55px;
+}
+
+div.main--grid h2 {
+  font-weight: 300;
+  
+}
+
+
+.main__text.main__text1 {
+  grid-area: right;
+  text-align: left;
+  margin: 16px 30px 0 0;
+}
+.main__text.main__text1 > p:first-child {
+  margin-bottom: 20px;
+}
+.main__text.main__text1 > p:first-child > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(212, 102, 0);
+  max-width: 130px;
+  margin: 8px;
+  padding: 8px;
+  transition: .5s ease-in-out;
+  border-radius: 4px;
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 2px;
+  box-shadow: 10px 10px 94px -19px rgba(255,255,255,1); 
+}
+
+.main__text.main__text1 > p:first-child > a:hover {
+  color: rgb(218, 218, 218);
+  background-color: rgba(153, 153, 153, 0.2);
+}
+
+
+.main__text.main__text1 > p:first-child > a:first-child {
+  margin-top: 50px;
+}
+.main__text.main__text1 > p:first-child > a:last-child {
+  margin-bottom: 30px;
+}
+.main__text.main__text1 > p:last-child {
+  margin-top: 10px;
+}
+
+.main__img.main__img1 {
+  grid-area: menu;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 266px;
+  margin-right: 25px;
+}
+
+.main__textAuthor {
+  font-size: 12px;
+  color: rgb(218, 218, 218);
+}
+
+.main__userValue {
+  grid-area: main;
+  font-size: 18px;
+  max-width: 75vw;
+  min-height: 80px;
+  color: rgb(138, 138, 138);
+  padding: 25px 0;
+  text-align: justify;
+  padding: 25px;;
+}
+
+
+.main__userEditable {
+  grid-area: footer;
+  font-size: 18px;
+  width: 75vw;
+  min-height: 200px;
+  text-align: start;
+  outline: 1px dotted rgb(131, 131, 131);
+  transition: .3s ease-in-out;
+  color: rgb(131, 131, 131);
+  font-style: italic;
+  padding: 25px;
+}
+.main__userEditable:focus {
+  outline: 1px solid rgba(255, 102, 0, 0.699);
+}
+
+
+.main__form {
+  margin: 120px auto;
+  width: 350px;
+  background-color: #2f2f2f;
+}
+.main__form > div {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.main__input label {
+  color: #a1a1a1 !important;
+}
+
+.main__input > input {
+  color: #a1a1a1 !important;
+}
+
+.main__input > div hr:first-child {
+  border-top: none rgb(158, 158, 158) !important;
+  border-left: none rgb(158, 158, 158) !important;
+  border-right: none rgb(158, 158, 158) !important;
+  border-bottom: 1px solid rgb(158, 158, 158) !important;
+}
+
+.main__input > div hr:last-child {
+  border-top: none rgb(212, 102, 0) !important;
+  border-left: none rgb(212, 102, 0) !important;
+  border-right: none rgb(212, 102, 0) !important;
+  border-bottom: 2px solid rgba(212, 102, 0) !important;
+}
+
+.main__button > div span {
+  color: #ffffff !important;
+}
+
+.main__form > div a {
+  display: block;
+  text-decoration: none;
+  color: #7d7d7d;
+  margin-top: 1.6em;
+  transition: .3s ease-in-out;
+}
+
+.main__form > div a:hover {
+  color: rgba(212, 102, 0);
+}

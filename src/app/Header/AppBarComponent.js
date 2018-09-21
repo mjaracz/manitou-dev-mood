@@ -3,8 +3,9 @@ import AppBar from 'material-ui/AppBar';
 import Toggle from 'material-ui/Toggle';
 
 
-class AppBarView extends Component {
+class AppBarComponent extends Component {
   render() {
+    console.log(this.props)
     return (
       <AppBar
         title="Manitou"
@@ -29,4 +30,4 @@ class AppBarView extends Component {
   }
 }
 
-export default AppBarView;
+export default AppBarComponent;

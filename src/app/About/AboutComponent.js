@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
-import Image from '../assets/img4mini.JPG';
-import { Link } from 'react-router-dom';
-import '../style/Main.css';
+import './Main.css';
 
-class AbouteView extends Component {
+class AbouteComponent extends Component {
   render() {
     return(
       <main>
         <div className="main--grid">
           <h1>O projekcie</h1>
-          <figure>
-            <img src={Image} alt="autor zdjęcia: Michał Jaracz" className="main__img1" />
-            <figcaption className="main__textAuthor">autor zdjęcia: Michał Jaracz</figcaption>
-          </figure>
           <div className="main__text main__text1">
             <p>
             Stwórzmy powieść pisaną przez tysiące użytkowników!
-            Wybierz jeden z trzech wątków tematycznych.
-            Do wyboru są:
-            <Link to="/apacze">Apacze</Link><Link to="/komancze">Komancze</Link><Link to="/czejenowie">Czejenowie</Link>
+            Wybierz jeden z przygotowanych wątków tematycznych.
             
             Zdecyduj w jakim plemienu się znajdziesz.
             </p>
@@ -36,4 +28,4 @@ class AbouteView extends Component {
   }
 }
 
-export default AbouteView;
+export default AbouteComponent;

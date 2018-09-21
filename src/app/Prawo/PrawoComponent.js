@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Image from '../assets/o_Projekcie.JPG';
-import '../style/Main.css';
+import './Main.css';
 
-class PrawoView extends Component {
-  
-
+class PrawoComponent extends Component {
   render() {
     return(
       <main>
@@ -28,4 +26,4 @@ class PrawoView extends Component {
   }
 }
 
-export default PrawoView;
+export default PrawoComponent;

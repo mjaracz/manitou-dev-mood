@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import AppBarView from '../view/AppBarView';
-import SideCardView from '../view/SideCardView';
+import AppBarComponent from './AppBarComponent';
+import SideCardComponent from './SideCardComponent';
 import { Redirect } from 'react-router';
 import { connect } from 'react-redux';
-import { userSignIn } from '../redux/actions/userActions';
+import { userSignIn } from '../../duck/actions/userActions';
 
 import PropTypes from 'prop-types';
 
-class AppBar extends Component {
+class AppBarContainer extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       sideCard: false,
-      signin: false,
+      register: false,
       logo: false
     }
 
@@ -29,11 +29,10 @@ class AppBar extends Component {
   }
 
   onToggle() {
-    
-    this.props.userSignIn(!this.state.signin);
-
-    console.log(this.props.signin);
+    console.log('...')
+    this.props.registerClick()
   }
+
 
   logoClick() {
     this.setState({
@@ -46,23 +45,23 @@ class AppBar extends Component {
   render() {
     return(
       <div>
-        <AppBarView menuClick={this.menuClick} onToggle={this.onToggle} logoClick={this.logoClick}/>
-        <SideCardView sideCard={this.state.sideCard} menuClick={this.menuClick}/>
-        {this.props.signin ? <Redirect push to='/signin' /> : null}
+        <AppBarComponent menuClick={this.menuClick} onToggle={this.props.registerClick} logoClick={this.logoClick}/>
+        <SideCardComponent sideCard={this.state.sideCard} menuClick={this.menuClick}/>
         {this.state.logo ? <Redirect push to='/' /> : null}
       </div>
     )
   }
 }
 
-AppBar.propTypes = {
-  signin: PropTypes.bool.isRequired,
+AppBarContainer.propTypes = {
+  // signin: PropTypes.bool.isRequired,
 
-  userSignIn: PropTypes.func.isRequired
+  // userSignIn: PropTypes.func.isRequired,
+  registerClick: PropTypes.func.isRequired
 }
 
 const mapStateToProps = (state) => ({
   signin: state.users.signin
 })
 
-export default connect(mapStateToProps, { userSignIn })(AppBar);
+export default connect(mapStateToProps, { userSignIn })(AppBarContainer);
