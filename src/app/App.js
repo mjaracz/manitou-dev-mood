@@ -6,11 +6,9 @@ import { Provider } from 'react-redux';
 import HeaderContainer from './Header/HeaderContainer';
 import AboutComponent from './About/AboutComponent';
 import ApaczeContainer from './Apacze/ApaczeContainer';
-// import Komancze from './Komancze';
-// import Czejenowie from './Czejenowie';
-// import Signin from './Signin';
-// import KontaktView from '../view/KontaktView';
-// import PrawoView from '../view/PrawoView';
+import SigninContainer from './Register/SigninContainer';
+import KontaktComponent from './Kontakt/KontaktComponent';
+import PrawoComponent from './Prawo/PrawoComponent';
 import RegisterContainer from './Register/RegisterContainer';
 
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -18,24 +16,19 @@ import { BrowserRouter, Route } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-
       <Provider store={store}>
         <BrowserRouter>
             <div className="content">
               <HeaderContainer/>
               <Route exact path='/' component={ AboutComponent } />
               <Route path='/apacze' component={ ApaczeContainer } />
-              {/* 
-              <Route path='/komancze' component={ Komancze } />
-              <Route path='/czejenowie' component={ Czejenowie } />
-              <Route path='/kontakt' component={ KontaktView } />
-              <Route path='/prawo' component={ PrawoView } />
-            <Route path='/signin' component={ Signin } /> */}
+              <Route path='/kontakt' component={ KontaktComponent } />
+              <Route path='/prawo' component={ PrawoComponent } />
+              <Route path='/signin' component={ SigninContainer } />
             <Route path='/register' component={ RegisterContainer } />
             </div>
         </BrowserRouter>
       </Provider>
-  
     );
   }
 }

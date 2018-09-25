@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SigninComponent from './SigninComponent';
 
-class Signin extends Component {
+class SigninContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -23,4 +23,4 @@ class Signin extends Component {
   }
 }
 
-export default Signin;
+export default SigninContainer;
