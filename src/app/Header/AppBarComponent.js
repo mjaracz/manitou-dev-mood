@@ -1,31 +1,38 @@
 import React, { Component } from 'react';
-import AppBar from 'material-ui/AppBar';
 import Toggle from 'material-ui/Toggle';
+import { Link } from 'react-router-dom';
+
+
+/* <Toggle
+  label="zaloguj się"
+  labelStyle={{color: 'white'}}
+  thumbStyle={{backgroundColor: 'rgba(255, 102, 0)'}}
+  trackStyle={{backgroundColor: 'rgba(255, 102, 0, 0.2)'}}
+  thumbSwitchedStyle={{backgroundColor: 'rgba(255, 102, 0)'}}
+  trackSwitchedStyle={{backgroundColor: 'rgba(255, 102, 0, 0.2)'}}
+  onToggle={this.props.onToggle}
+/> */
+
+import './AppBar.css';
 
 
 class AppBarComponent extends Component {
   render() {
-    console.log(this.props)
     return (
-      <AppBar
-        title="Manitou"
-        onTitleClick={this.props.logoClick}
-        onLeftIconButtonClick={this.props.menuClick}
-        className="header__bar"
-        iconElementRight={
-          <div className="header__toggle">
-            <Toggle
-              label="zaloguj się"
-              labelStyle={{color: 'white'}}
-              thumbStyle={{backgroundColor: 'rgba(255, 102, 0)'}}
-              trackStyle={{backgroundColor: 'rgba(255, 102, 0, 0.2)'}}
-              thumbSwitchedStyle={{backgroundColor: 'rgba(255, 102, 0)'}}
-              trackSwitchedStyle={{backgroundColor: 'rgba(255, 102, 0, 0.2)'}}
-              onToggle={this.props.onToggle}
-            />
-          </div>
-        }
-      />
+      <div className="header__appbar">
+        <li>
+          <Link to="/">O Projekcie</Link>
+        </li>
+        <li>
+          <Link to="/manitou">TwórzManitou</Link>
+        </li>
+        <li>
+          <Link to="/kontakt">Kontakt</Link>
+        </li>
+        <li>
+          <Link to="/prawo">Prawa Autorskie</Link>
+        </li>        
+      </div>
     )
   }
 }

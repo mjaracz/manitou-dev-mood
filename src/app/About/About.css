@@ -5,10 +5,6 @@ main {
   margin: 100px auto;
   padding: 80px !important;
   border-radius: 8px;
-
-  -webkit-box-shadow: 4px 0px 56px 14px rgba(0,42,43,1);
-  -moz-box-shadow: 4px 0px 56px 14px rgba(0,42,43,1);
-  box-shadow: 4px 0px 56px 14px rgba(0,42,43,1);
 }
 
 main > h1 {
