@@ -20,7 +20,6 @@ class HeaderContainer extends Component {
     else this.setState({ register: true })
   }
   render() {
-    console.log(this.state.register)
     return (
       <div>
         <HeaderComponent />

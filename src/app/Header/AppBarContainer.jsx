@@ -14,7 +14,8 @@ class AppBarContainer extends Component {
     this.state = {
       sideCard: false,
       register: false,
-      logo: false
+      logo: false,
+      sticky: false
     }
 
     this.menuClick = this.menuClick.bind(this);
@@ -22,30 +23,53 @@ class AppBarContainer extends Component {
     this.logoClick = this.logoClick.bind(this);
   }
 
-  menuClick(e) {
+  menuClick = (e) => {
     this.setState({
       sideCard: !this.state.sideCard
     })
   }
 
-  onToggle() {
+  onToggle = () => {
     console.log('...')
     this.props.registerClick()
   }
 
 
-  logoClick() {
+  logoClick = () => {
     this.setState({
       logo: !this.state.logo
     })
   }
 
-  
+  componentDidMount = () => {
+    window.addEventListener('scroll', this.handleScroll)
+  }
+  componentWillUnmount = () => {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
+
+  handleScroll = () => {
+    let height = window.innerHeight
+    let scrollY = window.scrollY
+    if(scrollY >= height) {
+      this.setState({
+        sticky: true
+      })
+    }
+    else {
+      this.setState({
+        sticky: false
+      })
+    }
+  }
 
   render() {
     return(
       <div>
-        <AppBarComponent menuClick={this.menuClick} onToggle={this.props.registerClick} logoClick={this.logoClick}/>
+        <AppBarComponent 
+          menuClick={this.menuClick} onToggle={this.props.registerClick}
+          logoClick={this.logoClick} sticky={this.state.sticky}
+        />
         <SideCardComponent sideCard={this.state.sideCard} menuClick={this.menuClick}/>
         {this.state.logo ? <Redirect push to='/' /> : null}
       </div>

@@ -19,7 +19,7 @@ import './AppBar.css';
 class AppBarComponent extends Component {
   render() {
     return (
-      <div className="header__appbar">
+      <div className={this.props.sticky ? "header__appbar header__appbar--sticky" : "header__appbar"}>
         <li>
           <Link to="/">O Projekcie</Link>
         </li>
