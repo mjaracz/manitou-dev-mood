@@ -16,15 +16,15 @@ class HeaderContainer extends Component {
 
   registerClick() {
     let register = this.state.register
-    if(register) this.setState({ register: false })
-    else this.setState({ register: true })
+    if(register) return this.setState({ register: false })
+    this.setState({ register: true })
   }
   render() {
     return (
       <div>
         <HeaderComponent />
         <AppBarContainer registerClick={this.registerClick} />
-        {this.state.register ? <Redirect push to='/register' /> : <Redirect push to='/' />}
+        {/* {this.state.register ? <Redirect push to='/register' /> : <Redirect push to='/' />} */}
       </div>
     )
   }

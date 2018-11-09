@@ -1,0 +1,24 @@
+main {
+  width: 80vw; 
+  background-color: #0e0e0e ;
+  color:  rgb(218, 218, 218);
+  margin: 100px auto;
+  padding: 80px ;
+  border-radius: 8px;
+}
+
+main > h1 {
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2.5px;
+  margin: 0 auto 80px auto;
+}
+
+.main__text.main__text1 {
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.main__text.main__text1 > p:first-child {
+  margin-bottom: 25px;
+}
