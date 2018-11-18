@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ApaczeComponent from './ApaczeComponent';
+import TworzComponent from './TworzComponent';
 import { addText } from '../../duck/actions/userActions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-class ApaczeContainer extends Component {
+class TworzContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -23,6 +23,7 @@ class ApaczeContainer extends Component {
   }
 
   addText() {
+    let id = 0;
     let arrText = [
       {
         type: 'Apacze',
@@ -40,11 +41,15 @@ class ApaczeContainer extends Component {
         author: 'Michał Jaracz'
       }
     ]
+    for(let i=0; i < arrText.length; i++) {
+      arrText[i].id = id++
+    }
 
     arrText.push({
       type: `Apacze`,
       text: `${this.state.text}`,
-      author: `Michał Jaracz`
+      author: `Michał Jaracz`,
+      id: id++
     })
 
     
@@ -54,13 +59,14 @@ class ApaczeContainer extends Component {
   }
 
   render() {
+    console.log(this.state.text)
     return(
-      <ApaczeComponent text={this.state.text} changeTekst={this.changeTekst} addText={this.addText} />
+      <TworzComponent text={this.state.text} changeTekst={this.changeTekst} addText={this.addText} />
     )
   }
 }
 
-ApaczeContainer.propTypes = {
+TworzContainer.propTypes = {
   addText: PropTypes.func.isRequired,
   texts: PropTypes.array.isRequired
 }
@@ -69,4 +75,4 @@ const mapStateToProps = (state) => ({
   texts: state.users.texts
 })
 
-export default connect(mapStateToProps, { addText } ) (ApaczeContainer);
+export default connect(mapStateToProps, { addText } )(TworzContainer);

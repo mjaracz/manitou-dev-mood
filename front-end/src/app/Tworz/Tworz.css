@@ -1,0 +1,42 @@
+main {
+  width: 80vw; 
+  background-color: #0e0e0e;
+  color:  rgb(218, 218, 218);
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+
+main > h1 {
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2.5px;
+  margin-left: 55px;
+}
+
+
+.main__text {
+  font-size: 12px;
+  color: rgb(218, 218, 218);
+  padding: 25px;
+}
+
+.main__text > p:first-child {
+  margin-bottom: 20px;
+}
+
+.main__edit {
+  font-size: 18px;
+  max-width: 75vw;
+  min-height: 80px;
+  color: rgb(138, 138, 138);
+  padding: 25px 0;
+  text-align: justify;
+  padding: 25px;;
+}
+
+.main__edit:focus {
+  outline: 1px dotted rgba(255, 72, 0, 0.822);
+}
+

@@ -1,5 +1,5 @@
-import { SIGN_IN } from '../actions/types'; 
-//ADD_TEXT, LISTED_USER, 
+import { SIGN_IN, ADD_TEXT } from '../actions/types'; 
+ 
 const InitialState = {
   texts: [],
   item: {},
@@ -8,18 +8,12 @@ const InitialState = {
 
 export const userReducer = (state=InitialState, action) => {
   switch(action.type) {
-    // case ADD_TEXT: {
-    //  return {
-    //    ...state,
-    //    texts: action.payload
-    //  }
-    // }
-    // case LISTED_USER: {
-    //   return {
-    //     ...state,
-    //     items: action.payload
-    //   }
-    // }
+    case ADD_TEXT: {
+     return {
+       ...state,
+       texts: action.payload
+     }
+    }
     case SIGN_IN: {
       return {
         ...state,

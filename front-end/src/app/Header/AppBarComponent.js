@@ -14,7 +14,7 @@ class AppBarComponent extends Component {
           <Link to="/" className="appbar__item">O Projekcie</Link>
         </li>
         <li>
-          <Link to="/manitou" className="appbar__item">TwórzManitou</Link>
+          <Link to="/tworzManitou" className="appbar__item">TwórzManitou</Link>
         </li>
         <li>
           <Link to="/kontakt" className="appbar__item">Kontakt</Link>

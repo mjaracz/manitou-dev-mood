@@ -1,11 +1,25 @@
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 8080;
-const mongoose = require('mongoose');
+const parser = require('body-parser')
+const routes = require('./routes/routes.js')
 
-app.use(express.json())
+const express = require('express')
 
-mongoose.connect('mongodb://michal:<Password>@cluster0-shard-00-00-kx74d.mongodb.net:27017,cluster0-shard-00-01-kx74d.mongodb.net:27017,cluster0-shard-00-02-kx74d.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true')
+const app = express()
+const http = require('http').Server(app)
+
+const port = process.env.PORT || 4000
 
 
-app.listen(port, () => console.log(`server started on port ${port}`))
+
+app.use(parser.json())
+app.use(parser.urlencoded({ extended: true }))
+app.use('/api', routes)
+app.use((req, res) => {
+  res.status(404)
+})
+
+http.listen(port, () => {
+  console.log('server started on port' + port)
+})
+
+
+module.exports = app

@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
-import './Apacze.css';
+import './Tworz.css';
 import img from '../assets/mini/img3mini.JPG'
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ContentAdd from 'material-ui/svg-icons/content/add';
 
 
-class ApaczeComponent extends Component {
+class TworzComponent extends Component {
   render() {
     return (
       <main>
-        <div className="main--grid">
-          <h1>Apacze</h1>
-          <div className="main__img main__img1">
-          </div>
-
-          <div className="main__text main__text1">
-            Cześć podróżnicza: 
+        <h1>Apacze</h1>
+        <div className="main__text">
+          <p>
             lorem ipsum dkfk dfjnwidcn njsjakakwc
             wita cksl dkfnksl kmdkfnk fkdfkvnkvf
             lorem ipsum dkfk dfjnwidcn njsjakakwc
@@ -24,11 +20,21 @@ class ApaczeComponent extends Component {
             wita cksl dkfnksl kmdkfnk fkdfkvnkvf
             lorem ipsum dkfk dfjnwidcn njsjakakwc
             wita cksl dkfnksl kmdkfnk fkdfkvnkvf
-          </div>
+          </p>
+          <p>
+            {this.props.text}
+          </p>
+        </div>
+        <div 
+          className="main__edit" name='text'
+          contentEditable={true} onInput={this.props.changeTekst}
+          onBlur={this.props.changeTekst}
+        >
+          <p>Po prostu zacznij tutaj pisać w tym miejscu :) miłej zabawy Indianinie</p>
         </div>
       </main>
     )
   }
 }
 
-export default ApaczeComponent;
+export default TworzComponent;
