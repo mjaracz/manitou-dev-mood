@@ -12,17 +12,15 @@ class TworzContainer extends Component {
       text: 'Dokończ zaczętą historie, to od ciebie zależy jak potoczą się dalsze losy bohaterów.'
     }
 
-    this.changeTekst = this.changeTekst.bind(this);
-    this.addText = this.addText.bind(this);
   }
 
-  changeTekst(e) {
+  changeText = (e) => {
     this.setState({
       [e.target.getAttribute('name')]: [e.target.innerHTML]
     })
   }
 
-  addText() {
+  addText = () => {
     let id = 0;
     let arrText = [
       {
@@ -59,9 +57,12 @@ class TworzContainer extends Component {
   }
 
   render() {
-    console.log(this.state.text)
     return(
-      <TworzComponent text={this.state.text} changeTekst={this.changeTekst} addText={this.addText} />
+      <TworzComponent 
+        text={this.state.text}
+        changeText={this.changeText}
+        addText={this.addText}
+      />
     )
   }
 }
@@ -75,4 +76,4 @@ const mapStateToProps = (state) => ({
   texts: state.users.texts
 })
 
-export default connect(mapStateToProps, { addText } )(TworzContainer);
+export default connect(mapStateToProps, { addText })(TworzContainer)

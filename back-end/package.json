@@ -2,10 +2,14 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "global": "^4.3.2",
     "node-json-db": "^0.9.1",
     "random-number": "^0.0.9"
   },
   "scripts": {
     "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
