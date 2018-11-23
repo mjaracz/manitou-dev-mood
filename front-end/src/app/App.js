@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <BrowserRouter>
-            <div className="content">
+            <div>
               <HeaderContainer/>
               <Route exact path='/' component={ AboutComponent } />
               <Route path='/tworzManitou' component={ TworzManitou } />

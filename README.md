@@ -1,4 +1,8 @@
 Start project. <br>
+<<<<<<< HEAD
+=======
+<br>
+>>>>>>> 2f5913063ca889df88007db6272c95d423abf0ce
 Step 1) <br>
   go to directory back-end/, and typing in your console, 'node index.js' command <br>
 Step 2) <br>
