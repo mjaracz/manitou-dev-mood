@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
 import './Tworz.css';
 
-import AddStore from './AddStore/AddStoreComponent'
-import PreviousStore from './PreviousStore/PreviousStoreComponent'
+import AddStore from './AddStoreComponent'
+import Stories from './Stories/StoriesComponent'
+
+
 
 class TworzComponent extends Component {
   render() {
+    const { 
+      stories,
+      changeText,
+      text 
+    } = this.props
     return (
       <main>
-        <PreviousStore text={this.props.text}/>
-        <AddStore changeText={this.props.changeText}/>
+        <Stories 
+          stories={stories} 
+          text={text}
+        />
+        <AddStore changeText={changeText}/>
       </main>
     )
   }
