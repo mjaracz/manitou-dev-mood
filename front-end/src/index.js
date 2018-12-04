@@ -6,10 +6,22 @@ import App from './App/App';
 
 import './index.css';
 
+import { Provider } from 'react-redux';
+import {createEpicMiddleware} from "redux-observable";
+import {rootEpic} from "./duck/epics";
+import {applyMiddleware, createStore} from "redux";
+import {rootReducer} from "./duck/reducers";
+
+const epicMiddleware = createEpicMiddleware();
+epicMiddleware.run(rootEpic);
+
+const store = createStore(rootReducer, applyMiddleware(epicMiddleware));
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <App />
+	  <Provider store={store}>
+      <App />
+	  </Provider>
   </MuiThemeProvider>, 
   document.getElementById('root'));
 registerServiceWorker();
