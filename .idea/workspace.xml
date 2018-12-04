@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63724476-8075-4d8a-8083-cd3efbac741b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/manitou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/reactTemplatesPlugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/About/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/About/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/About/AboutComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Footer/FooterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Footer/FooterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Footer/FooterContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Footer/FooterContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/AppBar/AppBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/AppBar/AppBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/AppBar/AppBarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/AppBar/AppBarComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/AppBar/AppBarContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/AppBar/AppBarContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/SideCard/SideCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/SideCard/SideCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Header/SideCard/SideCardComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Header/SideCard/SideCardComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Kontakt/KontaktComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Kontakt/KontaktComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Kontakt/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Kontakt/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Prawo/Prawo.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Prawo/Prawo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Prawo/PrawoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Prawo/PrawoComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Register/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Register/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Register/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Register/RegisterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Register/RegisterContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Register/RegisterContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Register/SigninComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Register/SigninComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Register/SigninContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Register/SigninContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/AddStoreComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/AddStoreComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/ErrorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/ErrorComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/LoadingComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/LoadingComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/Stories/Stories.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/Stories/Stories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/Stories/StoriesComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/Stories/StoriesComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/Stories/StoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/Stories/StoryComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/Tworz.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/Tworz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/TworzComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/TworzComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/TworzContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/TworzContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/Tworz/__tests__/TworzComponent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/Tworz/__tests__/TworzComponent.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/img1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/img1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/img2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/img2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/img3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/img3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/img4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/img4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/img5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/img5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/img6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/img6.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/mini/img1mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/mini/img1mini.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/mini/img2mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/mini/img2mini.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/mini/img3mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/mini/img3mini.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/mini/img4mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/mini/img4mini.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/mini/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/mini/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/assets/mini/o_Projekcie.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App/assets/mini/o_Projekcie.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="manitou" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/App/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/front-end/src/app/App.js" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/front-end/src/index.js" />
+        <option value="$PROJECT_DIR$/front-end/src/App/App.js" />
+        <option value="$PROJECT_DIR$/front-end/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/front-end/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="53" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manitou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manitou" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/front-end/src/App/App.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63724476-8075-4d8a-8083-cd3efbac741b" name="Default Changelist" comment="" />
+      <created>1543860826784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543860826784</updated>
+      <workItem from="1543860829352" duration="222000" />
+      <workItem from="1543861062892" duration="3891000" />
+      <workItem from="1543915759641" duration="2572000" />
+      <workItem from="1543933545288" duration="198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6883000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989035" visible="true" weight="0.18133895" />
+      <window_info id="Structure" order="1" sideWeight="0.5010965" side_tool="true" weight="0.18133895" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010965" side_tool="true" weight="0.18133895" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

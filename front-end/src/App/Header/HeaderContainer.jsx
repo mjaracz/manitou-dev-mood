@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router'
 import HeaderComponent from './HeaderComponent';
-import AppBarContainer from './AppBarContainer';
+import AppBarContainer from './AppBar/AppBarContainer';
 
 
 class HeaderContainer extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Main.css';
+import './Register.css';
 import TextField from 'material-ui/TextField';
 import FlatButton from 'material-ui/FlatButton';
 import { Link } from 'react-router-dom';

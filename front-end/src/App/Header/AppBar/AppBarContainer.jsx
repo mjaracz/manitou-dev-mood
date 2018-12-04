@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import AppBarComponent from './AppBarComponent';
-import SideCardComponent from './SideCardComponent';
+import SideCardComponent from '../SideCard/SideCardComponent';
 import { Redirect } from 'react-router';
-import { connect } from 'react-redux';
-import { userSignIn } from '../../duck/actions/userActions';
 
-import PropTypes from 'prop-types';
 
 class AppBarContainer extends Component {
   constructor(props) {
@@ -17,10 +14,6 @@ class AppBarContainer extends Component {
       logo: false,
       sticky: false
     }
-
-    this.menuClick = this.menuClick.bind(this);
-    this.onToggle = this.onToggle.bind(this);
-    this.logoClick = this.logoClick.bind(this);
   }
 
   menuClick = (e) => {
@@ -31,7 +24,6 @@ class AppBarContainer extends Component {
 
   onToggle = () => {
     console.log('...')
-    this.props.registerClick()
   }
 
 
@@ -64,28 +56,32 @@ class AppBarContainer extends Component {
   }
 
   render() {
+    const {
+      menuClick,
+      logoClick,
+      onToggle 
+    } = this
+    
+    const { 
+      sticky,
+      sideCard 
+    } = this.state
+
     return(
       <div>
         <AppBarComponent 
-          menuClick={this.menuClick} onToggle={this.props.registerClick}
-          logoClick={this.logoClick} sticky={this.state.sticky}
+          menuClick={menuClick} onToggle={onToggle}
+          logoClick={logoClick} sticky={sticky}
         />
-        <SideCardComponent sideCard={this.state.sideCard} menuClick={this.menuClick}/>
+        <SideCardComponent
+          sideCard={sideCard}
+          menuClick={menuClick}
+        />
         {this.state.logo ? <Redirect push to='/' /> : null}
       </div>
     )
   }
 }
 
-AppBarContainer.propTypes = {
-  // signin: PropTypes.bool.isRequired,
 
-  // userSignIn: PropTypes.func.isRequired,
-  registerClick: PropTypes.func.isRequired
-}
-
-const mapStateToProps = (state) => ({
-  signin: state.users.signin
-})
-
-export default connect(mapStateToProps, { userSignIn })(AppBarContainer);
+export default AppBarContainer
