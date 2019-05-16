@@ -1,17 +1,17 @@
-const RandomKey = require('../utils/RandomKey')
+const RandomKey = require('../utils/RandomKey');
 
-function generateKey(data, arrID) {
-  let exsKey
-  let key
+function generateKey(data, arrID, next) {
+  let exsKey;
+  let key;
 
-  if(arrID.length) key = new RandomKey(arrID, data.length).startMachine()
-  exsKey = isNaN(key) ? false : true
+  if(arrID.length) key = new RandomKey(arrID, data.length).startMachine();
+  exsKey = !isNaN(key);
 
   if(exsKey) {
-    next(new Error('bład maszyny losującej'))
-    return res.status(404).send('bład maszyny losującej:)')
+    next(new Error('bład maszyny losującej'));
+    return res.status(404).send('bład maszyny losującej')
   }
   return key
 }
 
-module.exports = generateKey
+module.exports = generateKey;
