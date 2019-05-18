@@ -24,3 +24,6 @@
   transition: .2s ease-in-out;
 }
 
+.mainPage__SVG:hover {
+  fill: #3a1616;
+}

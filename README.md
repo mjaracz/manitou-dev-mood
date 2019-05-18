@@ -10,11 +10,11 @@ Next go to root project directory in your favorite terminal and type: <br>
 Afterwards, go to your root directory and type:
 > cd ./front-end/ && npm install <br>
 
-After all, the project should be ready for action, but the last thing to doing is start backend and frontend side of app.
+But the last thing to doing is start backend and frontend side of app.
 Type in backend directory:
 > npm run dev <br>
 
 And frontend directory:
 > npm start <br>
 
-Now project should be ready to testing and using 
+Now project should be ready to testing and using.
