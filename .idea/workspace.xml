@@ -2,65 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63724476-8075-4d8a-8083-cd3efbac741b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/Header/HeaderContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/MainPage/MainPageComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/MainPage/MainPageContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/MainPage/MainPageDescription.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/assets/down-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/About/About.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/About/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/About/AboutComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Footer/FooterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Footer/FooterComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Footer/FooterContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Footer/FooterContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/AppBar/AppBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Header/AppBar/AppBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/AppBar/AppBarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Header/AppBar/AppBarComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/AppBar/AppBarContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Header/AppBar/AppBarContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/MainPage/MainPageFlex.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/HeaderComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/HeaderContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/SideCard/SideCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Header/SideCard/SideCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Header/SideCard/SideCardComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Header/SideCard/SideCardComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Kontakt/KontaktComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Kontakt/KontaktComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Kontakt/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Kontakt/Main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Prawo/Prawo.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Prawo/Prawo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Prawo/PrawoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Prawo/PrawoComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Register/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Register/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Register/RegisterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Register/RegisterComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Register/RegisterContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Register/RegisterContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Register/SigninComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Register/SigninComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Register/SigninContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Register/SigninContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/AddStoreComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/AddStoreComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/ErrorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/ErrorComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/LoadingComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/LoadingComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/Stories/Stories.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/Stories/Stories.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/Stories/StoriesComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/Stories/StoriesComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/Stories/StoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/Stories/StoryComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/Tworz.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/Tworz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/TworzComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/TworzComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/TworzContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/TworzContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/Tworz/__tests__/TworzComponent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Tworz/__tests__/TworzComponent.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/img1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/img1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/img2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/img2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/img3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/img3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/img4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/img4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/img5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/img5.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/img6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/img6.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/mini/img1mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/mini/img1mini.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/mini/img2mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/mini/img2mini.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/mini/img3mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/mini/img3mini.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/mini/img4mini.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/mini/img4mini.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/mini/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/mini/img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App/assets/mini/o_Projekcie.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/assets/mini/o_Projekcie.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/duck/actions/dbActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/duck/actions/dbActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,12 +27,12 @@
         <entry file="file://$PROJECT_DIR$/front-end/src/MainPage/MainPageFlex.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -95,22 +42,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/front-end/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/App.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/back-end/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -119,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -131,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/front-end/src/Header/AppBar/AppBarContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="624">
-              <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -151,27 +95,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/Header/AppBar/AppBar.css">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Header/HeaderContainer.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/MainPage/MainPageDescription.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -223,6 +146,7 @@
         <option value="$PROJECT_DIR$/front-end/src/Header/AppBar/AppBarComponent.js" />
         <option value="$PROJECT_DIR$/front-end/src/MainPage/MainPageFlex.css" />
         <option value="$PROJECT_DIR$/front-end/.gitignore" />
+        <option value="$PROJECT_DIR$/front-end/package.json" />
       </list>
     </option>
   </component>
@@ -252,11 +176,6 @@
             <path>
               <item name="manitou" type="b2602c69:ProjectViewProjectNode" />
               <item name="manitou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manitou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manitou" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,12 +236,12 @@
       <workItem from="1557946603146" duration="3576000" />
       <workItem from="1558075292509" duration="188000" />
       <workItem from="1558173337655" duration="4610000" />
-      <workItem from="1558178018991" duration="2863000" />
+      <workItem from="1558178018991" duration="3357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18120000" />
+    <option name="totallyTimeSpent" value="18614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -351,13 +270,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/App/App.js" />
     <entry file="file://$PROJECT_DIR$/back-end/utils/asyncMiddleware.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -386,9 +298,6 @@
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/utils/compareID.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -502,7 +411,7 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/Header/HeaderContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -512,7 +421,7 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -522,7 +431,7 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -535,7 +444,7 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/Header/AppBar/AppBarContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
-          <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -552,7 +461,21 @@
     <entry file="file://$PROJECT_DIR$/front-end/src/MainPage/MainPageFlex.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -567,6 +490,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
