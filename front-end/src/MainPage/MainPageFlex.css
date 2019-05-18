@@ -1,106 +1,79 @@
-
-.header {
+.mainPage {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
 }
 
-.header__flex {
+.mainPage--flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
-  height: 50vh;
+  height: 100vh;
   transition: .2s ease-in-out;
+  overflow-x: hidden;
 }
 
-.header__img {
+.mainPage__img {
+  flex: 1;
   transition: .5s ease-in-out;
   max-width: 100%;
-  filter: grayscale(100%);
 }
-.header__img:hover {
+.mainPage__img:hover {
+  flex: 3;
   filter: grayscale(0);
 }
 
 
-.header__img1 {
+.mainPage__img1 {
   background-repeat: no-repeat;    
   background-size: cover;
   background-image: url('../assets/img3.JPG');
   flex: 1;
 }
 
-.header__img2 {
+.mainPage__img2 {
   background-repeat: no-repeat;    
   background-size: cover;    
   background-image: url('../assets/img6.JPG');
   flex: 1;
 }
   
-.header__img3 {
+.mainPage__img3 {
   background-repeat: no-repeat;        
   background-size: cover;    
   background-image: url('../assets/img2.JPG');
   flex: 1;
 }
 
-.header__img4 {
-  background-repeat: no-repeat;    
-  background-size: cover;
-  background-image: url('../assets/img4.JPG');
-  flex: 1;
-}
-
-.header__img5 {
-  background-repeat: no-repeat;    
-  background-size: cover;    
-  background-image: url('../assets/img1.JPG');
-  flex: 1;
-}
-  
-.header__img6 {
-  background-repeat: no-repeat;        
-  background-size: cover;    
-  background-image: url('../assets/img5.JPG');
-  flex: 1;
-}
-
-
 @media screen and (max-width: 600px) {
-  
 
-  .header {
+  .mainPage {
     display: flex;
     flex-direction: column;
     overflow: hidden;
     max-width: 100vw;
     max-height: 40vh;
   }
-  
-  .header__img {
+
+  .mainPage__img {
+    flex: 1;
     transition: .5s ease-in-out;
     max-width: 100%;
-    filter: grayscale(100%);
   }
-  .header__img:hover {
+  .mainPage__img:hover {
     filter: grayscale(0);
   }
-  
-  .header__flex1 {
-    display: none;
-  }
 
-  .header__img5 {
+
+  .mainPage__img2 {
     display: none;
   }
-  .header__img6 {
+  .mainPage__img3 {
     display: none;
   }
   
-  .header__img4 {
+  .header__img1 {
     flex: 1;
     background-image: url('../assets/mini/img3mini.JPG');
     background-size: cover;

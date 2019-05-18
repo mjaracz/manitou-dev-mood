@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Toggle from 'material-ui/Toggle';
 import { Link } from 'react-router-dom';
 
 

@@ -7,7 +7,7 @@ import Loading from './LoadingComponent'
 import Error from './ErrorComponent'
 import TworzComponent from './TworzComponent'
 
-import { fetchStory } from '../../duck/actions/dbActions'
+import { fetchStory } from '../duck/actions/dbActions'
 
 class TworzContainer extends Component {
   static propTypes = {
@@ -15,7 +15,7 @@ class TworzContainer extends Component {
     story: PropTypes.array.isRequired,
     isLoading: PropTypes.bool.isRequired,
     error: PropTypes.string
-  }
+  };
   constructor(props) {
     super(props);
 
@@ -29,22 +29,21 @@ class TworzContainer extends Component {
       this.setState({
       [e.target.getAttribute('name')]: [e.target.innerHTML]
     })
-  }
+  };
   componentDidMount() {
-    const { fetchStory, story } = this.props
-    fetchStory()
+    const { fetchStory, story } = this.props;
+    fetchStory();
 
     console.log(story)
   }
   addText = () => {
 
-  }
+  };
 
   render() {
-    const { isLoading, error, story } = this.props
-    const { text } = this.state
-    const { changeText, addText } = this
-    console.log(story)
+    const { isLoading, error, story } = this.props;
+    const { text } = this.state;
+    console.log(story);
     return(
       <div>
         {isLoading && <Loading/>} 
@@ -52,8 +51,8 @@ class TworzContainer extends Component {
           <TworzComponent 
             text={text}
             stories={story}
-            changeText={changeText}
-            addText={addText}
+            changeText={this.changeText}
+            addText={this.addText}
           />
         }
         {error && <Error>{console.log(this.props)}</Error>}
@@ -66,11 +65,11 @@ const mapStateToProps = state => ({
   story: state.db.story,
   isLoading: state.db.isLoading,
   error: state.db.error
-})
+});
 
 const mapDispatchToProps = dispatch =>
   bindActionCreators({
     fetchStory
-  }, dispatch)
+  }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)( TworzContainer )

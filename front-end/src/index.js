@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import App from './App/App';
+import App from './App';
 
 import './index.css';
 
-import { Provider } from 'react-redux';
+import {Provider} from 'react-redux';
 import {createEpicMiddleware} from "redux-observable";
 import {rootEpic} from "./duck/epics";
 import {applyMiddleware, createStore} from "redux";

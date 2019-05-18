@@ -15,4 +15,6 @@ Type in backend directory:
 > npm run dev <br>
 
 And frontend directory:
-> npm start
+> npm start <br>
+
+Now project should be ready to testing and using 

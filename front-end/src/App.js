@@ -9,14 +9,17 @@ import PrawoComponent from './Prawo/PrawoComponent';
 import RegisterContainer from './Register/RegisterContainer';
 
 import { BrowserRouter, Route } from 'react-router-dom';
+import MainPageContainer from "./MainPage/MainPageContainer";
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div>
-          <HeaderContainer/>
+          <Route exact path='/' component={ MainPageContainer }/>
           <Route exact path='/' component={ AboutComponent } />
+
+          <HeaderContainer/>
           <Route path='/tworzManitou' component={ TworzManitou } />
           <Route path='/kontakt' component={ KontaktComponent } />
           <Route path='/prawo' component={ PrawoComponent } />
