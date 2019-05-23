@@ -48,10 +48,10 @@
 }
 
 .sidebar i {
+  margin: 25px;
   font-size: 48px;
   position: relative;
   color: #F57F17;
   border-radius: 0 !important;
-  margin-bottom: 18px;
   cursor: pointer;
 }

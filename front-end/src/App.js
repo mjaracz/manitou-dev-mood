@@ -9,7 +9,7 @@ import PrawoComponent from './Prawo/PrawoComponent';
 import RegisterContainer from './Register/RegisterContainer';
 
 import { BrowserRouter, Route } from 'react-router-dom';
-import MainPageContainer from "./MainPage/MainPageContainer";
+import MainPageContainer from './MainPage/MainPageContainer';
 
 class App extends Component {
   render() {
@@ -21,6 +21,9 @@ class App extends Component {
 
           <HeaderContainer/>
           <Route path='/tworzManitou' component={ TworzManitou } />
+          <Route path='/apacze' component={ TworzManitou } />
+          <Route path='/komancze' component={ TworzManitou } />
+          <Route path='/czejenowie' component={ TworzManitou } />
           <Route path='/kontakt' component={ KontaktComponent } />
           <Route path='/prawo' component={ PrawoComponent } />
           <Route path='/signin' component={ SigninContainer } />

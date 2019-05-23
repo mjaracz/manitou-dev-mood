@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import animatedScrollTo from 'animated-scroll-to'
 import MainPageComponent from './MainPageComponent'
 
-
-import './MainPageFlex.css';
-import './MainPageDescription.css';
+import './MainPage.css';
 
 
 class MainPageContainer extends Component {
@@ -17,7 +15,9 @@ class MainPageContainer extends Component {
     animatedScrollTo(windowHeight, options);
   };
   render() {
-    return <MainPageComponent onClickArrow={this.onClickArrow}/>
+    return <MainPageComponent
+      onClickArrow={this.onClickArrow}
+    />
   }
 }
 

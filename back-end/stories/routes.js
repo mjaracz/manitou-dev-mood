@@ -7,7 +7,7 @@ const getArrID = require('../utils/getArrID');
 const router = require('express').Router();
 
 const JSONdb = require('node-json-db');
-const db = new JSONdb('data', true, false);
+const db = new JSONdb('stories', true, false);
 
 
 router.get('/story/all', asyncMiddleware( async(req, res, next) => {

@@ -1,5 +1,6 @@
 const parser = require('body-parser');
-const routes = require('./routes/routes.js');
+const routes = require('./stories/routes.js');
+const userRoutes = require('./users/user.routes');
 
 const express = require('express');
 
@@ -12,6 +13,7 @@ const port = process.env.PORT || 8080;
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));
 app.use('/api', routes);
+app.use('/user', userRoutes);
 app.use((req, res) => {
   res.status(404)
 });

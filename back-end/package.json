@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "global": "^4.3.2",
+    "jsonwebtoken": "^8.5.1",
     "node-json-db": "^0.9.1",
     "random-number": "^0.0.9"
   },

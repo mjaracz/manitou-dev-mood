@@ -12,9 +12,9 @@ class TworzComponent extends Component {
       stories,
       changeText,
       text 
-    } = this.props
+    } = this.props;
     return (
-      <main>
+      <main className="main">
         <Stories 
           stories={stories} 
           text={text}

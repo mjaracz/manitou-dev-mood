@@ -9,23 +9,13 @@ class AppBarContainer extends Component {
     super(props);
 
     this.state = {
-      sideCard: false,
       register: false,
       logo: false,
-      sticky: false
+      sticky: false,
+      windowHeight: 0,
+      sandwichClick: false,
+      sideCard: false
     }
-  };
-
-  menuClick = (e) => {
-    this.setState({
-      sideCard: !this.state.sideCard
-    })
-  };
-
-  logoClick = () => {
-    this.setState({
-      logo: !this.state.logo
-    })
   };
 
   componentDidMount = () => {
@@ -35,12 +25,32 @@ class AppBarContainer extends Component {
     window.removeEventListener('scroll', this.handleScroll)
   };
 
+  menuClick = (e) => {
+    const {
+      sideCard,
+      sandwichClick
+    } = this.state;
+    this.setState({
+      sandwichClick: !sandwichClick,
+      sideCard: !sideCard
+    });
+  };
+  logoClick = () => {
+    this.setState({
+      logo: !this.state.logo
+    })
+  };
+
   handleScroll = () => {
     let height = window.innerHeight;
     let scrollY = window.scrollY;
+    let windowWidth = window.innerWidth;
+    this.setState({
+      windowWidth: windowWidth
+    });
     if(scrollY > height + 100) {
       this.setState({
-        sticky: true
+        sticky: true,
       })
     }
     else {
@@ -53,14 +63,18 @@ class AppBarContainer extends Component {
   render() {
     const { 
       sticky,
-      sideCard 
+      sideCard,
+      windowWidth,
+      sandwichClick
     } = this.state;
-
     return(
       <div>
-        <AppBarComponent 
+        <AppBarComponent
+          logoClick={this.logoClick}
           menuClick={this.menuClick}
-          logoClick={this.logoClick} sticky={sticky}
+          windowWidth={windowWidth}
+          sandwichClick={sandwichClick}
+          sticky={sticky}
         />
         <SideCardComponent
           sideCard={sideCard}
@@ -72,5 +86,4 @@ class AppBarContainer extends Component {
   }
 }
 
-
-export default AppBarContainer
+export default AppBarContainer;

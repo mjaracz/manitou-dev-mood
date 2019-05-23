@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import AppBarContainer from './AppBar/AppBarContainer';
+import SideCardComponent from "./SideCard/SideCardComponent";
 
 
 class HeaderContainer extends Component {
@@ -9,6 +10,8 @@ class HeaderContainer extends Component {
 
     this.state = {
       register: false,
+      sideCard: false,
+      sandwichClick: false
     };
   };
   registerClick = () => {
@@ -18,10 +21,17 @@ class HeaderContainer extends Component {
   render() {
     return (
       <div>
-        <AppBarContainer registerClick={this.registerClick} />
+        <AppBarContainer
+          registerClick={this.registerClick}
+          menuClick={this.menuClick}
+        />
         {this.state.register
           ? <Redirect push to='/register' />
           : <Redirect push to='/' />}
+        <SideCardComponent
+          menuClick={this.menuClick}
+          sideCard={this.sideCard}
+        />
       </div>
     )
   }

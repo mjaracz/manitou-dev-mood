@@ -4,8 +4,8 @@ import './About.css';
 class AboutComponent extends Component {
   render() {
     return(
-      <main>
-        <h1>O projekcie</h1>
+      <main className="main">
+        <h1 className="main__title">O projekcie</h1>
         <div className="main__text main__text1">
           <p>
           Stwórzmy powieść pisaną przez tysiące użytkowników!
