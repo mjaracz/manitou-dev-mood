@@ -1,5 +1,5 @@
 const parser = require('body-parser');
-const routes = require('./stories/routes.js');
+const routes = require('./stories/stories.routes.js');
 const userRoutes = require('./users/user.routes');
 
 const express = require('express');

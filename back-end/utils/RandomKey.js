@@ -5,6 +5,10 @@ class RandomKey {
     this.arrID = arrID;
     this.currentIndex = currentIndex;
     this.check = false;
+
+    if(arrID.length === 0 || currentIndex === undefined) {
+      throw new Error('Błąd połączenia z bazą dabych, spróbuj ponownie później')
+    }
   }
   startMachine() {
     if(!this.check) {
