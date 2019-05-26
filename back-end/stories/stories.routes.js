@@ -27,7 +27,7 @@ router.put('/story/update/:id', asyncMiddleware( async(req, res) => {
     .then(storyUpdated => res.json(storyUpdated))
 }));
 
-router.delete(`/story/delete/:id`, asyncMiddleware( async(req, res, next) => {
+router.delete(`/story/delete/:id`, asyncMiddleware( async(req, res) => {
   await storiesService.storyDelete(req, res)
     .then(data => data)
     .then(deleteStory => res.json(deleteStory))

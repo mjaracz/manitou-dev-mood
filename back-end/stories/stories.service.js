@@ -31,6 +31,7 @@ async function storyByID (req, res) {
 async function storyNew (req, res) {
   const data = await db.getData('/data');
   const key = generateKey(data, res);
+
   const dbPushGen = function* () {
     db.push(`/data[${data.length}]`, {
       "ID": key,
@@ -66,16 +67,13 @@ async function storyDelete (req, res) {
     doIdExists(req, data);
 
     const resGen = function* () {
-      const deleteStory = db.getData(`/data[${req.params.id}]`);
-      yield deleteStory;
+      return db.getData(`/data[${req.params.id}]`);
     };
     const response = resGen();
-    console.log(response.next(2).done)
-
     if(response.next().done) {
-      await db.delete(`/data[${req.params.id}]`)
+      await db.delete(`/data[${req.params.id}]`);
+      return response.next().value;
     }
-
   }
   catch(e) {
     console.error(e);
@@ -84,9 +82,9 @@ async function storyDelete (req, res) {
 }
 
 module.exports = {
-  storiesAll,
-  storyNew,
-  storyByID,
   storyUpdate,
-  storyDelete
+  storyDelete,
+  storiesAll,
+  storyByID,
+  storyNew
 };
