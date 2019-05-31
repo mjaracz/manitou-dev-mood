@@ -38,4 +38,6 @@
 .main__edit:focus {
   outline: 1px dotted rgba(255, 72, 0, 0.822);
 }
-
+.main__progress {
+  left: 35vw;
+}

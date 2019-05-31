@@ -14,7 +14,6 @@ class AppBarComponent extends Component {
       sandwichClick,
       menuClick
     } = this.props;
-    console.log(sticky, windowWidth);
     return (
       <nav className={sticky || windowWidth < 1224 ? "header__appbar header__appbar--sticky" : "header__appbar"}>
         <MediaQuery query="(max-width: 1224px)">

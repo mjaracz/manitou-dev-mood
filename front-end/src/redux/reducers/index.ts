@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { dbReducer } from './dbReducer';
+import { storiesReducer } from './storiesReducer';
 
 export const rootReducer = combineReducers({
-  db: dbReducer
-})
+  db: storiesReducer
+});

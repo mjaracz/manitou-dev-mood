@@ -8,7 +8,6 @@ const db = new NodeJSONdb('users', true, false, '/');
 async function register(req, res) {
   bcrypt.hash(req.body.password, 10, function(err, hash) {
     try {
-      console.log(hash);
       const newUser = {
         "id": req.body.id,
         "username": req.body.username,

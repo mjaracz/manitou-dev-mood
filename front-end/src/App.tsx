@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import HeaderContainer from './Header/HeaderContainer';
-import AboutComponent from './About/AboutComponent';
-import TworzManitou from './Tworz/TworzContainer';
-import SigninContainer from './Register/SigninContainer';
-import KontaktComponent from './Kontakt/KontaktComponent';
-import PrawoComponent from './Prawo/PrawoComponent';
-import RegisterContainer from './Register/RegisterContainer';
+import HeaderContainer from "./Header/HeaderContainer";
+import AboutComponent from "./About/AboutComponent";
+import TworzManitou from "./Tworz/TworzContainer";
+import SigninContainer from "./Register/SigninContainer";
+import KontaktComponent from "./Kontakt/KontaktComponent";
+import PrawoComponent from "./Prawo/PrawoComponent";
+import RegisterContainer from "./Register/RegisterContainer";
 
-import { BrowserRouter, Route } from 'react-router-dom';
-import MainPageContainer from './MainPage/MainPageContainer';
+import { BrowserRouter, Route } from "react-router-dom";
+import MainPageContainer from "./MainPage/MainPageContainer";
 
 class App extends Component {
   render() {

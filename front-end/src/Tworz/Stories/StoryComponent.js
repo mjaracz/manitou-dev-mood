@@ -6,6 +6,6 @@ const Story = ({ story }) => (
     <p className='item__body'>{story.body}</p>
     <p className='item__username'>{story.username}</p>
   </div>
-)
+);
 
 export default Story

@@ -26,7 +26,7 @@ npm manifest:
       "random-number": "^0.0.9"
     },
     "scripts": {
-      "dev": "nodemon index.js"
+      "dev": "nodemon index.ts"
     }
   }
 
